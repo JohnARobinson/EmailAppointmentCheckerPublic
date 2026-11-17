@@ -13,7 +13,7 @@ from interactWithUI import accept_appointments
 # then open a NEW terminal before running this script.
 EMAIL = os.environ.get("APPT_EMAIL")
 PASSWORD = os.environ.get("APPT_APP_PASSWORD")
-SENDER_FILTER = "support.desk@schedule.com"
+SENDER_FILTER = "Expected_Email_Address@.com"
 
 START = dt_time(9, 0)
 END = dt_time(18, 0)
